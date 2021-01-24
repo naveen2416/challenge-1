@@ -1,0 +1,308 @@
+
+#banner{
+    height: 476px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url("bg-1.bng");
+}
+#banner .container{
+    height: 458px;
+    width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+#banner .flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 458px;
+}
+#banner .text-flex{
+    width: 450px;
+    height: 343px;
+    flex-basis: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+#banner .top-text h1{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #A0A9B1;
+    font-family: 'Rubik',sans-serif;
+    margin-bottom: 16px;
+    font-weight: 100;
+    line-height: 1.8rem;
+}
+#banner .top-text p{
+    font-size: 40px;
+    width: 500px;
+    color:#343A40;
+    font-family: 'Rubik',sans-serif;
+    margin-bottom: 24px;
+    font-weight: 600;
+    line-height: 48px;
+    word-spacing: 3px;
+    }
+#banner .top-text spam{
+    color: blue;
+}
+#banner .top-text h2{
+    font-size: 15px;
+    color: #A0A9B1;
+    font-family: 'Rubik',sans-serif;
+    line-height: 1.8rem;
+    word-spacing: 2px;
+    margin-bottom: 16px;
+}
+#banner .bottom-flex{
+    flex-basis: 50%;
+}
+#banner .bottom-text{
+    display: flex;
+    justify-content: flex-start;
+    width: 254px;
+    margin-top: 35px;
+}
+#banner .bottom-text-1{
+flex-basis: 50%;
+border: blue solid 1px;
+background-color: blue;
+color: white;
+box-shadow: 0 8px 14px rgba(47,85,212,.2);;
+font-size: 15px;
+font-weight: 600;
+padding: 11px 21px;
+border-radius: 7px;
+text-transform: capitalize;
+text-align: center;
+margin-right: 5px;
+}
+#banner .bottom-text-2{
+flex-basis: 50%;
+border: lightgreen solid 1px;
+background-color: lightgreen;
+color: white;
+box-shadow: 0 8px 14px rgba(47,85,212,.2);;
+font-size: 15px;
+font-weight: 600;
+padding: 11px 21px;
+border-radius: 7px;
+text-transform: capitalize;
+text-align: center;
+margin-left: 5px;
+}
+#banner .form-flex{
+    flex-basis: 43%;
+    padding: 0 15px;
+    margin-left: 190px; 
+    width: 380px;
+    border: 2px solid white;
+    box-shadow: 0 0 4px 0px;
+}
+#banner .form-content{
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 24px;
+    width: 315px;
+}
+#banner .top-form p{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Rubik',sans-serif;
+    color: #A0A9B1;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+#banner .top-form h1{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Rubik',sans-serif;
+    color: #343A40;
+    margin-bottom: 24px;
+    line-height: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#banner .name-1{
+    text-transform: capitalize;
+    color: #A0A9B1;
+    font-size: 14.4px;
+    font-family: 'Rubik',sans-serif;
+    margin-bottom: 24px;
+}
+#banner .email-1{
+    text-transform: capitalize;
+    color: #A0A9B1;
+    font-size: 14.4px;
+    font-family: 'Rubik',sans-serif;
+    margin-bottom: 24px;
+}
+#banner .password-1{
+    text-transform: capitalize;
+    color:#A0A9B1;
+    font-size: 14.4px;
+    font-family: 'Rubik',sans-serif;
+    margin-bottom: 24px;
+}
+#banner input{
+    padding: 6px 12px;
+    margin-top: 8px;
+    width: 287px;
+}
+.button{
+    text-align: center;
+    margin-left: 15px;
+    font-family: 'Rubik',sans-serif;
+    padding: 4px 8px;
+    font-size: 14px;
+    color: white;
+    background-color: blue;
+    box-shadow: 0 8px 14px rgba(47,85,212,.2);
+    border-radius: 10px;
+}
+#services{
+    height: 827px;
+    padding: 80px 0;
+    }
+#services .top-content{
+    text-align: center;
+    margin-bottom: 50px;
+    }
+#services .top-content h1{
+    color: blue;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Rubik',sans-serif;
+    margin-bottom: 8px;
+}
+#services .top-content h2{
+    color: black;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-family: 'Rubik',sans-serif;
+    margin-bottom: 16px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+#services .top-content p{
+    font-size: 15px;
+    font-family: 'Rubik',sans-serif;
+    margin-bottom: 16px;
+    color: #A0A9B1;
+    line-height: 1.8;
+}
+#services .middle-content{
+    height: 454px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.middle-content .box{
+padding: 0 15px;
+flex-basis: 30%;
+}
+.middle-content .box-1{
+    padding: 24px;
+    margin-top: 16px;
+    text-align: center;
+}
+.middle-content .box-1 h1{
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 8px;
+    font-family: 'Rubik',sans-serif;
+    line-height: 1.2;
+    font-weight: 600;
+}
+.middle-content .box-1 p{
+    font-size: 15px;
+    line-height: 1.8;
+    color: #A0A9B1;
+}
+.middle-content .box-1 .icon{
+    display: inline;
+    font-size: 30px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #E4EAFA;
+}
+.middle-content .box-1 i{
+    color: #2F55D4;
+}
+.bottom-content{
+    text-align: center;
+}
+.bottom-content p{
+    padding: 11.2px 22.4px;
+    font-size: 14.4px;
+    color: white;
+    background-color: #34D1BF;
+    display: inline;
+    border-radius: 7px;
+}
+#best-solution{
+    height: 482px;
+    padding: 80px 0;
+    background-color: #2F55D4;
+}
+#best-solution .container{
+    width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+#best-solution .top-content{
+    text-align: center;
+    padding: 0 15px;
+}
+#best-solution .top-content h1{
+    color: white;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    font-family: 'rubik',sans-serif
+}
+#best-solution .top-content p{
+    color: #FFFFFF80;
+    font-size: 15px;
+    font-family: 'rubik',sans-serif;
+    line-height: 1.8;
+    margin-bottom: 16px;
+}
+#best-solution .flex-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;
+}
+#best-solution .flex-box{
+    text-align: center;
+    padding: 0 15px;
+    flex-basis: 22%;
+    }
+#best-solution .flex-box .box{
+    margin-top: 24px;
+}
+#best-solution .flex-content h1{
+    font-size: 32px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Rubik',sans-serif;
+}
+#best-solution .flex-content p{
+    font-size: 16px;
+    color: #FFFFFF80;
+    margin-bottom: 16px;
+}
+#best-solution .flex-box .icon{
+    margin: 0 auto;
+    font-size: 45px;
+    color: #34D1BF;
+    font-family: 'rubik',sans-serif;
+}
